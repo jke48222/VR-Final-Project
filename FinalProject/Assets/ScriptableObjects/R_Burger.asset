@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0240f69eb156d86499a8506989f3560d, type: 3}
+  m_Name: R_Burger
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  recipeId: recipe_burger
+  displayName: Burger
+  finalDishPrefab: {fileID: 4968572170322548103, guid: cae2cdc114cedbd44a2ed63346032769, type: 3}
+  finalDishId: dish_burger
+  requiredIngredients:
+  - ingredientId: ing_meat-patty-raw
+    desiredCookState: 2
+    ignoreCookState: 0
+    expectedCount: 1
+    weight: 1
+  - ingredientId: ing_bread
+    desiredCookState: 0
+    ignoreCookState: 1
+    expectedCount: 1
+    weight: 1
+  extraIngredients:
+  - ingredientId: ing_cheese-cut
+    weight: 1
+    ignoreCookState: 1
+    desiredCookState: 0
+  - ingredientId: ing_tomato-half
+    weight: 1
+    ignoreCookState: 1
+    desiredCookState: 0
+  - ingredientId: ing_cabbage-half
+    weight: 1
+    ignoreCookState: 1
+    desiredCookState: 0
+  - ingredientId: ing_bottle-ketchup
+    weight: 1
+    ignoreCookState: 1
+    desiredCookState: 0
+  - ingredientId: ing_bottle-mustard
+    weight: 1
+    ignoreCookState: 1
+    desiredCookState: 0
+  minRequiredMatches: 2
+  baseScore: 50
+  requiredIngredientWeight: 20
+  extraIngredientPenalty: 3
+  extraIngredientBonusWeight: 5

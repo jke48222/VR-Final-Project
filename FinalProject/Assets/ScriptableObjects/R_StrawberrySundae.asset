@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0240f69eb156d86499a8506989f3560d, type: 3}
+  m_Name: R_StrawberrySundae
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  recipeId: recipe_strawberry_sundae
+  displayName: Strawberry Sundae
+  finalDishPrefab: {fileID: 1745962565147482531, guid: 9d62a848cd7b7b54c86ad01badcd04a7, type: 3}
+  finalDishId: dish_strawberry_sundae
+  requiredIngredients:
+  - ingredientId: ing_ice-cream
+    desiredCookState: 0
+    ignoreCookState: 1
+    expectedCount: 1
+    weight: 1
+  - ingredientId: ing_whipped-cream
+    desiredCookState: 0
+    ignoreCookState: 1
+    expectedCount: 1
+    weight: 1
+  - ingredientId: ing_strawberry-half
+    desiredCookState: 0
+    ignoreCookState: 1
+    expectedCount: 1
+    weight: 1
+  extraIngredients:
+  - ingredientId: ing_honey
+    weight: 1
+    ignoreCookState: 1
+    desiredCookState: 0
+  - ingredientId: ing_chocolate-wrapper
+    weight: 1
+    ignoreCookState: 1
+    desiredCookState: 0
+  - ingredientId: ing_lollipop
+    weight: 1
+    ignoreCookState: 1
+    desiredCookState: 0
+  minRequiredMatches: 3
+  baseScore: 50
+  requiredIngredientWeight: 20
+  extraIngredientPenalty: 3
+  extraIngredientBonusWeight: 5

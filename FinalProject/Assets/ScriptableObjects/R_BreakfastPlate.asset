@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0240f69eb156d86499a8506989f3560d, type: 3}
+  m_Name: R_BreakfastPlate
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  recipeId: recipe_breakfast_plate
+  displayName: Breakfast Plate
+  finalDishPrefab: {fileID: 1402971531491276968, guid: 206a3f452de9805418c1d615713c29f5, type: 3}
+  finalDishId: dish_breakfast_plate
+  requiredIngredients:
+  - ingredientId: ing_egg-half
+    desiredCookState: 2
+    ignoreCookState: 0
+    expectedCount: 1
+    weight: 1
+  - ingredientId: ing_bacon-raw
+    desiredCookState: 2
+    ignoreCookState: 0
+    expectedCount: 1
+    weight: 1
+  extraIngredients:
+  - ingredientId: ing_bread
+    weight: 1
+    ignoreCookState: 1
+    desiredCookState: 0
+  - ingredientId: ing_frappe
+    weight: 1
+    ignoreCookState: 1
+    desiredCookState: 0
+  - ingredientId: ing_soda
+    weight: 1
+    ignoreCookState: 1
+    desiredCookState: 0
+  minRequiredMatches: 2
+  baseScore: 50
+  requiredIngredientWeight: 20
+  extraIngredientPenalty: 3
+  extraIngredientBonusWeight: 5
