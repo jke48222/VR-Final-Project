@@ -1,4 +1,4 @@
-# final-project-code-uga-vr-final
+# Kitchen Chaos VR — Multiplayer Cooking Game 
 ## Team Members
 <p align="center">
   <img src="headshotjalen.jpg" alt="Jalen Edusei" width="160" style="border-radius:50%;"/>
