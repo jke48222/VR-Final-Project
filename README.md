@@ -1,4 +1,4 @@
-# Kitchen Chaos VR — Multiplayer Cooking Game 
+# VR Final Project
 ## Team Members
 <p align="center">
   <img src="headshotjalen.jpg" alt="Jalen Edusei" width="160" style="border-radius:50%;"/>
