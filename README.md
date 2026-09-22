@@ -1,5 +1,7 @@
 # Kitchen Chaos VR
 
+![Top language](https://img.shields.io/github/languages/top/jke48222/VR-Final-Project) ![engine](https://img.shields.io/badge/engine-Unity-black) ![target](https://img.shields.io/badge/target-Meta%20Quest%203-blue) ![players](https://img.shields.io/badge/players-2-blue)
+
 A two player competitive cooking game for VR headsets. You get 120 seconds, a randomly chosen theme,
 and a kitchen full of food you can actually pick up. Chop it, cook it, plate it, and then a judge
 character reads out a verdict on both dishes and picks a winner.
